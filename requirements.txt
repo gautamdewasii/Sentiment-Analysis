@@ -6,4 +6,3 @@ nltk ==3.8.1
 pandas==1.5.3
 regex==2023.3.23
 contractions==0.1.73
-sklearn==0.0.post1
