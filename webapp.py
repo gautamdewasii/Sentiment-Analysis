@@ -10,11 +10,11 @@ from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
 # loading our model file (model.sav) into this program
-l1_model=pickle.load(open('K:/[2]MY DOCS/Coding/jupyter notebook/projects/Sentiment Analysis/model.sav','rb'))
+l1_model=pickle.load(open('model.sav','rb'))
 
 
 # loading tfidf vectorizer object file for text encoding 
-cv_encoder=pickle.load(open('K:/[2]MY DOCS/Coding/jupyter notebook/projects/Sentiment Analysis/cv.sav','rb'))
+cv_encoder=pickle.load(open('cv.sav','rb'))
 
 
 def tweetCleaner(text):
